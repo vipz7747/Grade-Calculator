@@ -1,0 +1,15 @@
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.pass {
+    background-color: #d4edda;
+    color: #155724;
+}
+.fail {
+    background-color: #f8d7da;
+    color: #721c24;
+}

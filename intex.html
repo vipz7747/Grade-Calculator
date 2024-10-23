@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css"  rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2>Student Grade Calculator</h2>
+            <label for="marks">Enter Marks (0-100):</label>
+            <input type="number" id="marks" class="form-control" placeholder="Enter student's marks" min="0" max="100">
+            <button type="button" class="btn btn-primary" onclick="calculateGrade()">Submit</button>
+            <div id="result" class="result"></div>
+        </div>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
